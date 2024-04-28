@@ -12,24 +12,28 @@
         <meta name="author" content="杨希杰">
       
       
-        <link rel="canonical" href="https://yang-xijie.github.io/">
+        <link rel="canonical" href="https://yang-xijie.github.io/LECTURE/vscode-cpp/4_%E8%AE%A4%E8%AF%86%E7%BB%88%E7%AB%AF%E5%92%8Cshell/">
       
       
+        <link rel="prev" href="../3_%E8%AE%A4%E8%AF%86%E7%A8%8B%E5%BA%8F/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+        <link rel="next" href="../5_%E5%BC%80%E5%90%AFVSCode%E7%9A%84%E5%A4%A7%E9%97%A8/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
     
     
       
-        <title>杨希杰的个人网站</title>
+        <title>4 认识终端和shell - 杨希杰的个人网站</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e359304.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,11 +54,11 @@
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
     
-      <link rel="stylesheet" href="mkdocs/css/no-footer.css">
+      <link rel="stylesheet" href="../../../mkdocs/css/no-footer.css">
     
-      <link rel="stylesheet" href="mkdocs/css/unordered-list-symbols.css">
+      <link rel="stylesheet" href="../../../mkdocs/css/unordered-list-symbols.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#macosvscodec-4-shell" class="md-skip">
           跳转至
         </a>
       
@@ -94,7 +98,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="." title="杨希杰的个人网站" class="md-header__button md-logo" aria-label="杨希杰的个人网站" data-md-component="logo">
+    <a href="../../.." title="杨希杰的个人网站" class="md-header__button md-logo" aria-label="杨希杰的个人网站" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -114,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              你好
+              4 认识终端和shell
             
           </span>
         </div>
@@ -225,7 +229,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ME/" class="md-tabs__link">
+        <a href="../../../ME/" class="md-tabs__link">
           
   
     
@@ -241,11 +245,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="LECTURE/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
           
   
     
@@ -265,7 +271,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="BLOG/" class="md-tabs__link">
+        <a href="../../../BLOG/" class="md-tabs__link">
           
   
     
@@ -285,7 +291,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="DEV/" class="md-tabs__link">
+        <a href="../../../DEV/" class="md-tabs__link">
           
   
     
@@ -305,7 +311,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="RESEARCH/" class="md-tabs__link">
+        <a href="../../../RESEARCH/" class="md-tabs__link">
           
   
     
@@ -325,7 +331,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="2/" class="md-tabs__link">
+        <a href="../../../2/" class="md-tabs__link">
           
   
     
@@ -345,7 +351,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ESSAY/" class="md-tabs__link">
+        <a href="../../../ESSAY/" class="md-tabs__link">
           
   
     
@@ -365,7 +371,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="REPRODUCE/" class="md-tabs__link">
+        <a href="../../../REPRODUCE/" class="md-tabs__link">
           
   
     
@@ -385,7 +391,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="WEBSITE/" class="md-tabs__link">
+        <a href="../../../WEBSITE/" class="md-tabs__link">
           
   
     
@@ -420,7 +426,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="杨希杰的个人网站" class="md-nav__button md-logo" aria-label="杨希杰的个人网站" data-md-component="logo">
+    <a href="../../.." title="杨希杰的个人网站" class="md-nav__button md-logo" aria-label="杨希杰的个人网站" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -497,7 +503,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="ME/" class="md-nav__link ">
+            <a href="../../../ME/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -530,7 +536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/introduction/" class="md-nav__link">
+      <a href="../../../ME/introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -551,7 +557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/profile/" class="md-nav__link">
+      <a href="../../../ME/profile/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -572,7 +578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/contact/" class="md-nav__link">
+      <a href="../../../ME/contact/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -593,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/account/" class="md-nav__link">
+      <a href="../../../ME/account/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -614,7 +620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/qq-groups/" class="md-nav__link">
+      <a href="../../../ME/qq-groups/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -635,7 +641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/description/" class="md-nav__link">
+      <a href="../../../ME/description/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -656,7 +662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/ability/" class="md-nav__link">
+      <a href="../../../ME/ability/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -677,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/experience/" class="md-nav__link">
+      <a href="../../../ME/experience/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -698,7 +704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/thu-curriculum/" class="md-nav__link">
+      <a href="../../../ME/thu-curriculum/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -719,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/thu-certificate/" class="md-nav__link">
+      <a href="../../../ME/thu-certificate/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -740,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/daily-necessities/" class="md-nav__link">
+      <a href="../../../ME/daily-necessities/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -761,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ME/support/" class="md-nav__link">
+      <a href="../../../ME/support/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -786,6 +792,8 @@
       
   
   
+    
+  
   
   
     
@@ -812,21 +820,22 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="LECTURE/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -837,13 +846,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             讲稿
@@ -905,7 +914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Linux/linux/" class="md-nav__link">
+      <a href="../../Linux/linux/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -926,7 +935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Linux/commands-concise/" class="md-nav__link">
+      <a href="../../Linux/commands-concise/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1001,7 +1010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Markdown/markdown/" class="md-nav__link">
+      <a href="../../Markdown/markdown/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1022,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Markdown/vscode-extension/" class="md-nav__link">
+      <a href="../../Markdown/vscode-extension/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1101,7 +1110,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Git/git/" class="md-nav__link">
+      <a href="../../Git/git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1122,7 +1131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Git/git-demos/" class="md-nav__link">
+      <a href="../../Git/git-demos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1143,7 +1152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Git/git-teamwork/" class="md-nav__link">
+      <a href="../../Git/git-teamwork/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1164,7 +1173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Git/windows-install/" class="md-nav__link">
+      <a href="../../Git/windows-install/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1193,7 +1202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/App/app-design/" class="md-nav__link">
+      <a href="../../App/app-design/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1211,8 +1220,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -1246,13 +1257,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" checked>
         
           
           <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
@@ -1266,7 +1275,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_6">
             <span class="md-nav__icon md-icon"></span>
             在macOS上用VSCode写C++代码
@@ -1280,7 +1289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/0_about/" class="md-nav__link">
+      <a href="../0_about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1301,7 +1310,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/1_%E5%89%8D%E8%A8%80%E5%92%8C%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E/" class="md-nav__link">
+      <a href="../1_%E5%89%8D%E8%A8%80%E5%92%8C%E8%AF%BE%E7%A8%8B%E8%AF%B4%E6%98%8E/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1322,7 +1331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/2_%E8%AE%A4%E8%AF%86macOS%E7%9A%84%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+      <a href="../2_%E8%AE%A4%E8%AF%86macOS%E7%9A%84%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1343,7 +1352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/3_%E8%AE%A4%E8%AF%86%E7%A8%8B%E5%BA%8F/" class="md-nav__link">
+      <a href="../3_%E8%AE%A4%E8%AF%86%E7%A8%8B%E5%BA%8F/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1361,10 +1370,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/4_%E8%AE%A4%E8%AF%86%E7%BB%88%E7%AB%AF%E5%92%8Cshell/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    4 认识终端和shell
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1373,6 +1402,497 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      内建程序与内建命令
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      与路径无关
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="与路径无关">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#which" class="md-nav__link">
+    <span class="md-ellipsis">
+      which
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#echo" class="md-nav__link">
+    <span class="md-ellipsis">
+      echo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      history
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#date" class="md-nav__link">
+    <span class="md-ellipsis">
+      date
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      说明
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      与shell当前工作目录相关
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="与shell当前工作目录相关">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pwd" class="md-nav__link">
+    <span class="md-ellipsis">
+      pwd
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      cd
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      总结
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      shell常用命令
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="shell常用命令">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ls" class="md-nav__link">
+    <span class="md-ellipsis">
+      ls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cat" class="md-nav__link">
+    <span class="md-ellipsis">
+      cat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear" class="md-nav__link">
+    <span class="md-ellipsis">
+      clear
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mkdir" class="md-nav__link">
+    <span class="md-ellipsis">
+      mkdir
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#touch" class="md-nav__link">
+    <span class="md-ellipsis">
+      touch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rm" class="md-nav__link">
+    <span class="md-ellipsis">
+      rm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      mv/cp
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open" class="md-nav__link">
+    <span class="md-ellipsis">
+      open
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#man" class="md-nav__link">
+    <span class="md-ellipsis">
+      man
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      shell常用的操作
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="shell常用的操作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      输出流重定向
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      管道
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⌃C
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      空格
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      终端进阶与常用的终端操作
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="终端进阶与常用的终端操作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where" class="md-nav__link">
+    <span class="md-ellipsis">
+      where
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vim" class="md-nav__link">
+    <span class="md-ellipsis">
+      vim极简入门（只要能写东西进去就好了）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⌃D
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chmod" class="md-nav__link">
+    <span class="md-ellipsis">
+      chmod
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      回顾
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="回顾">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      简化前面的命令 之 创建文件夹
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      简化前面的命令 之 执行自己写的程序
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      补充：环境变量
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="补充：环境变量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      引言
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      环境变量
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      为什么要用环境变量呢？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      补充：添加环境变量
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      其他的工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="其他的工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shell-" class="md-nav__link">
+    <span class="md-ellipsis">
+      shell脚本 - 组合你的命令
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homebrew-macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      homebrew - macOS快速安装命令行程序
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zsh" class="md-nav__link">
+    <span class="md-ellipsis">
+      zsh配置文件
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      配置终端 - 打造舒适终端
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      用户与群组
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shell_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      查看所有的shell内建命令
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      结束
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1385,7 +1905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/5_%E5%BC%80%E5%90%AFVSCode%E7%9A%84%E5%A4%A7%E9%97%A8/" class="md-nav__link">
+      <a href="../5_%E5%BC%80%E5%90%AFVSCode%E7%9A%84%E5%A4%A7%E9%97%A8/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1406,7 +1926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/6_VSCode%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C%E8%87%AA%E5%8A%A8%E5%8C%96/" class="md-nav__link">
+      <a href="../6_VSCode%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C%E8%87%AA%E5%8A%A8%E5%8C%96/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1427,7 +1947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/7_%E7%94%A8VSCode%E8%B0%83%E8%AF%95Cpp%E4%BB%A3%E7%A0%81/" class="md-nav__link">
+      <a href="../7_%E7%94%A8VSCode%E8%B0%83%E8%AF%95Cpp%E4%BB%A3%E7%A0%81/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1448,7 +1968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/8_%E8%AF%BE%E7%A8%8B%E5%9B%9E%E9%A1%BE/" class="md-nav__link">
+      <a href="../8_%E8%AF%BE%E7%A8%8B%E5%9B%9E%E9%A1%BE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1469,7 +1989,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/9_others/" class="md-nav__link">
+      <a href="../9_others/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1490,7 +2010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/10_%E6%9E%81%E9%80%9F%E7%89%88/" class="md-nav__link">
+      <a href="../10_%E6%9E%81%E9%80%9F%E7%89%88/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1511,7 +2031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/vscode-cpp/11_%E8%A1%A5%E5%85%85/" class="md-nav__link">
+      <a href="../11_%E8%A1%A5%E5%85%85/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1540,7 +2060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/English/phonetic-symbol/" class="md-nav__link">
+      <a href="../../English/phonetic-symbol/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1605,7 +2125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="LECTURE/Cube/basic/" class="md-nav__link">
+      <a href="../../Cube/basic/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1694,7 +2214,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="BLOG/" class="md-nav__link ">
+            <a href="../../../BLOG/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1727,7 +2247,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/others/" class="md-nav__link">
+      <a href="../../../BLOG/others/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1792,7 +2312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/VisionPro/240223-experience/" class="md-nav__link">
+      <a href="../../../BLOG/VisionPro/240223-experience/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1867,7 +2387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Apple/mac-recommend/" class="md-nav__link">
+      <a href="../../../BLOG/Apple/mac-recommend/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1888,7 +2408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Apple/ipad-recommend/" class="md-nav__link">
+      <a href="../../../BLOG/Apple/ipad-recommend/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1971,7 +2491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/macOS/tree/" class="md-nav__link">
+      <a href="../../../BLOG/macOS/tree/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1992,7 +2512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/macOS/zoom/" class="md-nav__link">
+      <a href="../../../BLOG/macOS/zoom/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2013,7 +2533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/macOS/sharing-mac-android/" class="md-nav__link">
+      <a href="../../../BLOG/macOS/sharing-mac-android/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2034,7 +2554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/macOS/mad/" class="md-nav__link">
+      <a href="../../../BLOG/macOS/mad/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2055,7 +2575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/macOS/stream/" class="md-nav__link">
+      <a href="../../../BLOG/macOS/stream/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2076,7 +2596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/macOS/intel-windows/" class="md-nav__link">
+      <a href="../../../BLOG/macOS/intel-windows/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2155,7 +2675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Markdown/grammars/" class="md-nav__link">
+      <a href="../../../BLOG/Markdown/grammars/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2176,7 +2696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Markdown/mkdocs-site/" class="md-nav__link">
+      <a href="../../../BLOG/Markdown/mkdocs-site/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2197,7 +2717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Markdown/mdbook-site/" class="md-nav__link">
+      <a href="../../../BLOG/Markdown/mdbook-site/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2218,7 +2738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Markdown/github-pages/" class="md-nav__link">
+      <a href="../../../BLOG/Markdown/github-pages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2299,7 +2819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Linux/vim/" class="md-nav__link">
+      <a href="../../../BLOG/Linux/vim/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2320,7 +2840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Linux/tmux/" class="md-nav__link">
+      <a href="../../../BLOG/Linux/tmux/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2341,7 +2861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Linux/unix/" class="md-nav__link">
+      <a href="../../../BLOG/Linux/unix/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2362,7 +2882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Linux/kernel-compile/" class="md-nav__link">
+      <a href="../../../BLOG/Linux/kernel-compile/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2383,7 +2903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Linux/pi-start/" class="md-nav__link">
+      <a href="../../../BLOG/Linux/pi-start/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2458,7 +2978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/OS/fork-exec-spawn/" class="md-nav__link">
+      <a href="../../../BLOG/OS/fork-exec-spawn/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2479,7 +2999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/OS/fork-example/" class="md-nav__link">
+      <a href="../../../BLOG/OS/fork-example/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2554,7 +3074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Network/learning/" class="md-nav__link">
+      <a href="../../../BLOG/Network/learning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2575,7 +3095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Network/nouns/" class="md-nav__link">
+      <a href="../../../BLOG/Network/nouns/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2656,7 +3176,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Math/latex/" class="md-nav__link">
+      <a href="../../../BLOG/Math/latex/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2677,7 +3197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Math/linear/" class="md-nav__link">
+      <a href="../../../BLOG/Math/linear/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2698,7 +3218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Math/taylor/" class="md-nav__link">
+      <a href="../../../BLOG/Math/taylor/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2719,7 +3239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Math/max-pr/" class="md-nav__link">
+      <a href="../../../BLOG/Math/max-pr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2740,7 +3260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Math/sympy-det/" class="md-nav__link">
+      <a href="../../../BLOG/Math/sympy-det/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2815,7 +3335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Physics/guass-stokes/" class="md-nav__link">
+      <a href="../../../BLOG/Physics/guass-stokes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2836,7 +3356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Physics/electromagnetics/" class="md-nav__link">
+      <a href="../../../BLOG/Physics/electromagnetics/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2915,7 +3435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/ElectronicEngineering/verilog-simulation/" class="md-nav__link">
+      <a href="../../../BLOG/ElectronicEngineering/verilog-simulation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2936,7 +3456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/ElectronicEngineering/storage/" class="md-nav__link">
+      <a href="../../../BLOG/ElectronicEngineering/storage/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2957,7 +3477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/ElectronicEngineering/rlc/" class="md-nav__link">
+      <a href="../../../BLOG/ElectronicEngineering/rlc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2978,7 +3498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/ElectronicEngineering/yosys-try/" class="md-nav__link">
+      <a href="../../../BLOG/ElectronicEngineering/yosys-try/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3051,7 +3571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Fpga/compare/" class="md-nav__link">
+      <a href="../../../BLOG/Fpga/compare/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3142,7 +3662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/notes-2202-2203/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/notes-2202-2203/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3163,7 +3683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/notes-2204/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/notes-2204/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3184,7 +3704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/notes-2205/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/notes-2205/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3205,7 +3725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/verb/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/verb/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3226,7 +3746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/adj/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/adj/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3247,7 +3767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/noun/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/noun/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3268,7 +3788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/grammar/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/grammar/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3289,7 +3809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/essays/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/essays/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3310,7 +3830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/tantanmen-translation/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/tantanmen-translation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3331,7 +3851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Japanese/chinese/" class="md-nav__link">
+      <a href="../../../BLOG/Japanese/chinese/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3408,7 +3928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Game/what-is-game/" class="md-nav__link">
+      <a href="../../../BLOG/Game/what-is-game/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3429,7 +3949,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Game/2d-vs-3d/" class="md-nav__link">
+      <a href="../../../BLOG/Game/2d-vs-3d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3450,7 +3970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Game/controller/" class="md-nav__link">
+      <a href="../../../BLOG/Game/controller/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3525,7 +4045,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Others/video-info/" class="md-nav__link">
+      <a href="../../../BLOG/Others/video-info/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3546,7 +4066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="BLOG/Others/sony-extend/" class="md-nav__link">
+      <a href="../../../BLOG/Others/sony-extend/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3619,7 +4139,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="DEV/" class="md-nav__link ">
+            <a href="../../../DEV/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -3652,7 +4172,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/interests/" class="md-nav__link">
+      <a href="../../../DEV/interests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3721,7 +4241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/React/h5/" class="md-nav__link">
+      <a href="../../../DEV/React/h5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3742,7 +4262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/React/notes/" class="md-nav__link">
+      <a href="../../../DEV/React/notes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3763,7 +4283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/React/vite/" class="md-nav__link">
+      <a href="../../../DEV/React/vite/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3836,7 +4356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Three/setup/" class="md-nav__link">
+      <a href="../../../DEV/Three/setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3911,7 +4431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Webgpu/notes/" class="md-nav__link">
+      <a href="../../../DEV/Webgpu/notes/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3932,7 +4452,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Webgpu/first-triangle/" class="md-nav__link">
+      <a href="../../../DEV/Webgpu/first-triangle/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4005,7 +4525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/SwiftUI/data-essentials/" class="md-nav__link">
+      <a href="../../../DEV/SwiftUI/data-essentials/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4086,7 +4606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Flutter/commands/" class="md-nav__link">
+      <a href="../../../DEV/Flutter/commands/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4107,7 +4627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Flutter/template/" class="md-nav__link">
+      <a href="../../../DEV/Flutter/template/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4128,7 +4648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Flutter/dart-lint/" class="md-nav__link">
+      <a href="../../../DEV/Flutter/dart-lint/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4149,7 +4669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Flutter/state-management/" class="md-nav__link">
+      <a href="../../../DEV/Flutter/state-management/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4170,7 +4690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Flutter/web-consideration/" class="md-nav__link">
+      <a href="../../../DEV/Flutter/web-consideration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4255,7 +4775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/recommendation/" class="md-nav__link">
+      <a href="../../../DEV/Programming/recommendation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4276,7 +4796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/my-feelings/" class="md-nav__link">
+      <a href="../../../DEV/Programming/my-feelings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4347,7 +4867,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/C/review/" class="md-nav__link">
+      <a href="../../../DEV/Programming/C/review/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4368,7 +4888,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/C/final/" class="md-nav__link">
+      <a href="../../../DEV/Programming/C/final/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4389,7 +4909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/C/stdout-fflush/" class="md-nav__link">
+      <a href="../../../DEV/Programming/C/stdout-fflush/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4410,7 +4930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/C/watch-matrix/" class="md-nav__link">
+      <a href="../../../DEV/Programming/C/watch-matrix/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4485,7 +5005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Python/copy/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Python/copy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4506,7 +5026,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Python/numpy-overview/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Python/numpy-overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4589,7 +5109,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Swift/learning-resources/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Swift/learning-resources/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4610,7 +5130,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Swift/notes-basic-grammars/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Swift/notes-basic-grammars/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4631,7 +5151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Swift/notes-language-guide/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Swift/notes-language-guide/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4652,7 +5172,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Swift/notes-useful-foundation/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Swift/notes-useful-foundation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4673,7 +5193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Swift/lecture-homework/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Swift/lecture-homework/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4694,7 +5214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Swift/parallel-for/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Swift/parallel-for/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4767,7 +5287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Dart/learning/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Dart/learning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4866,7 +5386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/1/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4887,7 +5407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/2/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4908,7 +5428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/3/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4929,7 +5449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/4/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4950,7 +5470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/5/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4971,7 +5491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/6/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/6/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4992,7 +5512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/7/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/7/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5013,7 +5533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/8/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/8/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5034,7 +5554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/google-format/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/google-format/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5055,7 +5575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/class-properties/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/class-properties/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5076,7 +5596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/list/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/list/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5097,7 +5617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/stack/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/stack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5118,7 +5638,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/final/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/final/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5139,7 +5659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="DEV/Programming/Cpp/oj/" class="md-nav__link">
+      <a href="../../../DEV/Programming/Cpp/oj/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5210,7 +5730,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="RESEARCH/" class="md-nav__link ">
+            <a href="../../../RESEARCH/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -5301,7 +5821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/CG/games101/" class="md-nav__link">
+      <a href="../../../RESEARCH/CG/games101/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5322,7 +5842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/CG/tiger-book/" class="md-nav__link">
+      <a href="../../../RESEARCH/CG/tiger-book/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5343,7 +5863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/CG/blender-donut/" class="md-nav__link">
+      <a href="../../../RESEARCH/CG/blender-donut/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5364,7 +5884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/CG/blender-manual/" class="md-nav__link">
+      <a href="../../../RESEARCH/CG/blender-manual/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5385,7 +5905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/CG/games203/" class="md-nav__link">
+      <a href="../../../RESEARCH/CG/games203/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5406,7 +5926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/CG/games105/" class="md-nav__link">
+      <a href="../../../RESEARCH/CG/games105/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5427,7 +5947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/CG/format/" class="md-nav__link">
+      <a href="../../../RESEARCH/CG/format/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5448,7 +5968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/CG/format-usdz/" class="md-nav__link">
+      <a href="../../../RESEARCH/CG/format-usdz/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5523,7 +6043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/Gpu/gpu/" class="md-nav__link">
+      <a href="../../../RESEARCH/Gpu/gpu/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5544,7 +6064,7 @@
   
   
     <li class="md-nav__item">
-      <a href="RESEARCH/Gpu/cuda/" class="md-nav__link">
+      <a href="../../../RESEARCH/Gpu/cuda/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5613,7 +6133,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="2/" class="md-nav__link ">
+            <a href="../../../2/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -5696,7 +6216,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Anime/anime-rating/" class="md-nav__link">
+      <a href="../../../2/Anime/anime-rating/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5717,7 +6237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Anime/anime-rating-extraordinary/" class="md-nav__link">
+      <a href="../../../2/Anime/anime-rating-extraordinary/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5738,7 +6258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Anime/anime-rating-great/" class="md-nav__link">
+      <a href="../../../2/Anime/anime-rating-great/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5759,7 +6279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Anime/anime-rating-good/" class="md-nav__link">
+      <a href="../../../2/Anime/anime-rating-good/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5842,7 +6362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Sukina/pictures/" class="md-nav__link">
+      <a href="../../../2/Sukina/pictures/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5863,7 +6383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Sukina/kawaii/" class="md-nav__link">
+      <a href="../../../2/Sukina/kawaii/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5884,7 +6404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Sukina/kawaii-koe/" class="md-nav__link">
+      <a href="../../../2/Sukina/kawaii-koe/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5905,7 +6425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Sukina/artists/" class="md-nav__link">
+      <a href="../../../2/Sukina/artists/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5926,7 +6446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Sukina/vtuber/" class="md-nav__link">
+      <a href="../../../2/Sukina/vtuber/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5947,7 +6467,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Sukina/voice/" class="md-nav__link">
+      <a href="../../../2/Sukina/voice/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6020,7 +6540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Galgame/ddlc/" class="md-nav__link">
+      <a href="../../../2/Galgame/ddlc/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6099,7 +6619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Genshin/characters/" class="md-nav__link">
+      <a href="../../../2/Games/Genshin/characters/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6120,7 +6640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Genshin/graphic-quality/" class="md-nav__link">
+      <a href="../../../2/Games/Genshin/graphic-quality/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6141,7 +6661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Genshin/controller/" class="md-nav__link">
+      <a href="../../../2/Games/Genshin/controller/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6162,7 +6682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Genshin/food/" class="md-nav__link">
+      <a href="../../../2/Games/Genshin/food/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6245,7 +6765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Apex/controller-aim/" class="md-nav__link">
+      <a href="../../../2/Games/Apex/controller-aim/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6266,7 +6786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Apex/controller-settings/" class="md-nav__link">
+      <a href="../../../2/Games/Apex/controller-settings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6287,7 +6807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Apex/zhidong-settings/" class="md-nav__link">
+      <a href="../../../2/Games/Apex/zhidong-settings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6308,7 +6828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Apex/key-mouse-settings/" class="md-nav__link">
+      <a href="../../../2/Games/Apex/key-mouse-settings/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6329,7 +6849,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Apex/characters/" class="md-nav__link">
+      <a href="../../../2/Games/Apex/characters/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6350,7 +6870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2/Games/Apex/17/" class="md-nav__link">
+      <a href="../../../2/Games/Apex/17/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6413,7 +6933,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="ESSAY/" class="md-nav__link ">
+            <a href="../../../ESSAY/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -6562,7 +7082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2401/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2401/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6583,7 +7103,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2312/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2312/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6604,7 +7124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2311/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2311/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6625,7 +7145,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2310/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2310/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6646,7 +7166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2309/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2309/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6667,7 +7187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2308/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2308/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6688,7 +7208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2307/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2307/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6709,7 +7229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2306/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2306/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6730,7 +7250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2305/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2305/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6751,7 +7271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2304/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2304/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6772,7 +7292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2303/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2303/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6793,7 +7313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2302/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2302/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6814,7 +7334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2301/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2301/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6835,7 +7355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2211-2212/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2211-2212/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6856,7 +7376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2209-2210/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2209-2210/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6877,7 +7397,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2207-2208/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2207-2208/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6898,7 +7418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2205-2206/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2205-2206/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6919,7 +7439,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2203-2204/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2203-2204/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6940,7 +7460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2201-2202/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2201-2202/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6961,7 +7481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2111-2112/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2111-2112/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6982,7 +7502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2109-2110/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2109-2110/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7003,7 +7523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2107-2108/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2107-2108/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7024,7 +7544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2105-2106/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2105-2106/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7045,7 +7565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2103-2104/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2103-2104/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7066,7 +7586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2101-2102/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2101-2102/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7087,7 +7607,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2011-2012/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2011-2012/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7108,7 +7628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2009-2010/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2009-2010/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7129,7 +7649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2007-2008/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2007-2008/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7150,7 +7670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2005-2006/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2005-2006/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7171,7 +7691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2003-2004/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2003-2004/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7192,7 +7712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/2001-2002/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/2001-2002/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7213,7 +7733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/0/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/0/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7234,7 +7754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/1906-1912/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/1906-1912/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7255,7 +7775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/1807-1812/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/1807-1812/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7276,7 +7796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/1801-1806/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/1801-1806/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7297,7 +7817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/17/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/17/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7318,7 +7838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Jottings/16/" class="md-nav__link">
+      <a href="../../../ESSAY/Jottings/16/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7495,7 +8015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/231211-life-targets/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/231211-life-targets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7516,7 +8036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/231018-research/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/231018-research/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7537,7 +8057,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/230629-account-book/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/230629-account-book/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7558,7 +8078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/230403-buy-phone/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/230403-buy-phone/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7579,7 +8099,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/230305-cccc-memory/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/230305-cccc-memory/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7600,7 +8120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/221227-expressvpn-refund/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/221227-expressvpn-refund/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7621,7 +8141,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220921-upgrade-introduction/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220921-upgrade-introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7642,7 +8162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220715-macbook-story/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220715-macbook-story/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7663,7 +8183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220624-gratitude/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220624-gratitude/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7684,7 +8204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220621-bytedance-interview/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220621-bytedance-interview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7705,7 +8225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220612-reply/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220612-reply/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7726,7 +8246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/2205-good-games/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/2205-good-games/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7747,7 +8267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220506-stop-jianshu/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220506-stop-jianshu/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7768,7 +8288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220505-library-thu/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220505-library-thu/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7789,7 +8309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220415-interestx2/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220415-interestx2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7810,7 +8330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220410-job-discussion/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220410-job-discussion/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7831,7 +8351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220410-independence/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220410-independence/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7852,7 +8372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220408-appreciating-girl/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220408-appreciating-girl/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7873,7 +8393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220402-languages-comparision/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220402-languages-comparision/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7894,7 +8414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220324-thoughts-996/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220324-thoughts-996/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7915,7 +8435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/220107-want-to-be/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/220107-want-to-be/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7936,7 +8456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/211104-emotion-bad/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/211104-emotion-bad/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7957,7 +8477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/210928-apple-recruitment-share/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/210928-apple-recruitment-share/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7978,7 +8498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/2109-covid-influence/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/2109-covid-influence/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7999,7 +8519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/2109-group-clear/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/2109-group-clear/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8020,7 +8540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/210820-cccc-event/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/210820-cccc-event/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8041,7 +8561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/210801-affection-3/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/210801-affection-3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8062,7 +8582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/210519-app-dev-experience/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/210519-app-dev-experience/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8083,7 +8603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/210516-apple-education-address/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/210516-apple-education-address/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8104,7 +8624,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/210502-extend-your-way/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/210502-extend-your-way/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8125,7 +8645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/201119-a-new-review/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/201119-a-new-review/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8146,7 +8666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/201213-look-at-yourself/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/201213-look-at-yourself/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8167,7 +8687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/200916-my-pursue/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/200916-my-pursue/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8188,7 +8708,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/200713-sutuo-and-me/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/200713-sutuo-and-me/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8209,7 +8729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/200703-talk-with-junior/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/200703-talk-with-junior/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8230,7 +8750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/200607-gaokao-memory/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/200607-gaokao-memory/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8251,7 +8771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/200604-small-goal/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/200604-small-goal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8272,7 +8792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/200602-tennkinoko/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/200602-tennkinoko/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8293,7 +8813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/200506-why/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/200506-why/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8314,7 +8834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/2005-travel/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/2005-travel/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8335,7 +8855,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/190730-tangyan-rd-23/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/190730-tangyan-rd-23/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8356,7 +8876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/190723-feelings-in-6-days/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/190723-feelings-in-6-days/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8377,7 +8897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/190707-address-to-nonlocal-students/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/190707-address-to-nonlocal-students/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8398,7 +8918,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/190629-affection-2/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/190629-affection-2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8419,7 +8939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/1905-non-intelligent/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/1905-non-intelligent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8440,7 +8960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/1901-go-to-thu/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/1901-go-to-thu/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8461,7 +8981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/1811-do-it/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/1811-do-it/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8482,7 +9002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/1808-ideality-and-reality/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/1808-ideality-and-reality/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8503,7 +9023,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/1806-apply-thu/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/1806-apply-thu/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8524,7 +9044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/18-tree/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/18-tree/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8545,7 +9065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/18-what-i-love/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/18-what-i-love/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8566,7 +9086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/17-dream-2017/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/17-dream-2017/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8587,7 +9107,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ESSAY/Articles/14-affection-1/" class="md-nav__link">
+      <a href="../../../ESSAY/Articles/14-affection-1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8658,7 +9178,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="REPRODUCE/" class="md-nav__link ">
+            <a href="../../../REPRODUCE/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -8735,7 +9255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="REPRODUCE/speech/tim-cook-at-duke/" class="md-nav__link">
+      <a href="../../../REPRODUCE/speech/tim-cook-at-duke/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8810,7 +9330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="REPRODUCE/book/harford-occupation-choice/" class="md-nav__link">
+      <a href="../../../REPRODUCE/book/harford-occupation-choice/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8831,7 +9351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="REPRODUCE/book/the-long-view/" class="md-nav__link">
+      <a href="../../../REPRODUCE/book/the-long-view/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8906,7 +9426,7 @@
   
   
     <li class="md-nav__item">
-      <a href="REPRODUCE/article/proses/" class="md-nav__link">
+      <a href="../../../REPRODUCE/article/proses/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8927,7 +9447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="REPRODUCE/article/my-best-teacher/" class="md-nav__link">
+      <a href="../../../REPRODUCE/article/my-best-teacher/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9000,7 +9520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="REPRODUCE/blog/how-to-ask-questions-the-smart-way/" class="md-nav__link">
+      <a href="../../../REPRODUCE/blog/how-to-ask-questions-the-smart-way/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9073,7 +9593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="REPRODUCE/lyrics/watagumo/" class="md-nav__link">
+      <a href="../../../REPRODUCE/lyrics/watagumo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9146,7 +9666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="REPRODUCE/poem/poems/" class="md-nav__link">
+      <a href="../../../REPRODUCE/poem/poems/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9211,7 +9731,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="WEBSITE/" class="md-nav__link ">
+            <a href="../../../WEBSITE/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -9244,7 +9764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="WEBSITE/build/" class="md-nav__link">
+      <a href="../../../WEBSITE/build/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9265,7 +9785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="WEBSITE/help/" class="md-nav__link">
+      <a href="../../../WEBSITE/help/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9286,7 +9806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="WEBSITE/test/" class="md-nav__link">
+      <a href="../../../WEBSITE/test/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9334,18 +9854,471 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      主要经历与个人现状
+      内建程序与内建命令
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      与路径无关
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="与路径无关">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#which" class="md-nav__link">
+    <span class="md-ellipsis">
+      which
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#echo" class="md-nav__link">
+    <span class="md-ellipsis">
+      echo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      history
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#date" class="md-nav__link">
+    <span class="md-ellipsis">
+      date
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      个人信息
+      说明
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      与shell当前工作目录相关
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="与shell当前工作目录相关">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pwd" class="md-nav__link">
+    <span class="md-ellipsis">
+      pwd
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      cd
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      总结
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      shell常用命令
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="shell常用命令">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ls" class="md-nav__link">
+    <span class="md-ellipsis">
+      ls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cat" class="md-nav__link">
+    <span class="md-ellipsis">
+      cat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clear" class="md-nav__link">
+    <span class="md-ellipsis">
+      clear
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mkdir" class="md-nav__link">
+    <span class="md-ellipsis">
+      mkdir
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#touch" class="md-nav__link">
+    <span class="md-ellipsis">
+      touch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rm" class="md-nav__link">
+    <span class="md-ellipsis">
+      rm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      mv/cp
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open" class="md-nav__link">
+    <span class="md-ellipsis">
+      open
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#man" class="md-nav__link">
+    <span class="md-ellipsis">
+      man
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      shell常用的操作
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="shell常用的操作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      输出流重定向
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      管道
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⌃C
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      空格
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      终端进阶与常用的终端操作
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="终端进阶与常用的终端操作">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where" class="md-nav__link">
+    <span class="md-ellipsis">
+      where
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vim" class="md-nav__link">
+    <span class="md-ellipsis">
+      vim极简入门（只要能写东西进去就好了）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⌃D
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chmod" class="md-nav__link">
+    <span class="md-ellipsis">
+      chmod
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      回顾
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="回顾">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      简化前面的命令 之 创建文件夹
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      简化前面的命令 之 执行自己写的程序
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      补充：环境变量
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="补充：环境变量">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      引言
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      环境变量
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      为什么要用环境变量呢？
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      补充：添加环境变量
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      其他的工具
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="其他的工具">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shell-" class="md-nav__link">
+    <span class="md-ellipsis">
+      shell脚本 - 组合你的命令
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#homebrew-macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      homebrew - macOS快速安装命令行程序
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zsh" class="md-nav__link">
+    <span class="md-ellipsis">
+      zsh配置文件
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      配置终端 - 打造舒适终端
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      用户与群组
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shell_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      查看所有的shell内建命令
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      结束
     </span>
   </a>
   
@@ -9366,7 +10339,7 @@
                   
 
   
-    <a href="https://github.com/Yang-Xijie/yang-xijie.github.io/edit/main/docs/index.md" title="编辑此页" class="md-content__button md-icon">
+    <a href="https://github.com/Yang-Xijie/yang-xijie.github.io/edit/main/docs/LECTURE/vscode-cpp/4_认识终端和shell.md" title="编辑此页" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -9374,40 +10347,216 @@
   
 
 
-<h1 id="_1">你好<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>这里是杨希杰的个人网站 <a href="https://yang-xijie.github.io">https://yang-xijie.github.io</a></p>
-<ul>
-<li>通过主题和目录以打开文章<ul>
-<li>PC端 在上方标签栏选择主题 在左侧目录选择文章</li>
-<li>移动端 点击左上角图标选择主题和文章</li>
-</ul>
-</li>
-<li>搜索关键词以打开文章</li>
-</ul>
-<hr />
-<blockquote>
-<p>以下信息更新于 240329</p>
-</blockquote>
-<h2 id="_2">主要经历与个人现状<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li>(2019.9 - 2023.6) <a href="https://www.ee.tsinghua.edu.cn">清华大学电子工程系</a>本科</li>
-<li>(2023.9 - 2028.6 预计) <a href="http://www.cs.zju.edu.cn/csen/">浙江大学计算机学院</a>与<a href="https://www.shlab.org.cn">上海人工智能实验室</a>联合培养直博生<ul>
-<li>导师 <a href="https://baike.baidu.com/item/汤晓鸥">汤晓鸥</a>（更换中）</li>
-<li>课题组 <a href="https://idc-sh.github.io">Intelligent Digital Creation Group</a><ul>
-<li>PI <a href="http://daibo.info">戴勃</a></li>
-<li>mentor <a href="https://eveneveno.github.io/lnxu/">徐霖宁</a></li>
-</ul>
-</li>
-<li>主要研究方向<ul>
-<li>3D Representation</li>
-<li>3D Reconstruction</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="_3">个人信息<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<p>更多信息请查看 <a href="ME/introduction/">个人介绍</a></p>
+<h1 id="macosvscodec-4-shell">在macOS上用VSCode写C++代码 4 认识终端和shell<a class="headerlink" href="#macosvscodec-4-shell" title="Permanent link">&para;</a></h1>
+<p>上节课我们已经打开了终端。这节课我们要深入认识终端。</p>
+<p>先简单回顾一下：</p>
+<p>终端提供的是一个输入命令（字符串）和输出提示（字符串）的环境，而<code>shell</code>则负责解析从终端输入的命令。</p>
+<h2 id="_1">内建程序与内建命令<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>我们打开终端，这时其实相当于打开了<code>shell</code>。上节课我们通过<code>shell</code>运行了一些程序（<code>say_hello</code> <code>/bin/date</code> <code>/bin/mkdir</code>）。其实<code>shell</code>自身也带着一些程序（二进制可执行文件），这些程序就叫内建程序。</p>
+<p><code>shell</code>内建程序的独特之处是，我们在调用这些程序的时候只需要敲一个单词就行了。<strong>一个单词</strong>，<strong>很短</strong>，所以我们就把它们称作内建命令。</p>
+<p>顺带一提，系统自带的那些程序如果也能用一个单词就调用那么也可以称它们为系统命令。</p>
+<p>内建命令有很多，我们只介绍一些比较重要的：<code>which</code> <code>echo</code> <code>history</code> <code>pwd</code> <code>cd</code></p>
+<h2 id="_2">与路径无关<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="which">which<a class="headerlink" href="#which" title="Permanent link">&para;</a></h3>
+<p>查看<code>shell</code>如何解释后面的命令</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1">which<span class="w"> </span>which
+</span><span id="__span-0-2">which<span class="w"> </span><span class="nb">echo</span>
+</span><span id="__span-0-3">which<span class="w"> </span><span class="nb">history</span>
+</span><span id="__span-0-4">which<span class="w"> </span><span class="nb">pwd</span>
+</span><span id="__span-0-5">which<span class="w"> </span><span class="nb">cd</span>
+</span></code></pre></div></td></tr></table></div>
+<p>得到结果：<code>which: shell built-in command</code></p>
+<h3 id="echo">echo<a class="headerlink" href="#echo" title="Permanent link">&para;</a></h3>
+<p>将后面输入的东西返回。看起来很没用，但是在显示变量的时候会显示变量的值而不是那个字符串</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><span class="nb">echo</span><span class="w"> </span>hello
+</span><span id="__span-1-2"><span class="nb">echo</span><span class="w"> </span><span class="nv">$SHELL</span>
+</span></code></pre></div></td></tr></table></div>
+<p>查看正在使用的<code>shell</code> <code>echo $SHELL</code>。其实还有好多其他的<code>shell</code>，但是我们用<code>macOS</code>默认的<code>shell</code>——<code>zsh</code>就好了。（小知识：在macOS 10.15 <code>Catalina</code>之前<code>macOS</code>默认的<code>shell</code>是<code>bash</code>，其实二者的区别并不大，作用都是解析你输入的命令）</p>
+<h3 id="history">history<a class="headerlink" href="#history" title="Permanent link">&para;</a></h3>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><span class="nb">history</span>
+</span><span id="__span-2-2"><span class="nb">history</span><span class="w"> </span>-5
+</span></code></pre></div></td></tr></table></div>
+<h3 id="date">date<a class="headerlink" href="#date" title="Permanent link">&para;</a></h3>
+<p>接下来我们尝试一下<code>which date</code>。</p>
+<p>发现<code>shell</code>返回了<code>/bin/date</code>！回顾<code>which</code>的作用，<code>which</code>会查看后面输入的东西作为命令如何被<code>shell</code>解析。也就是说，如果你在<code>shell</code>输入<code>date</code>，相当于输入<code>/bin/date</code>。那么我们要看时间怎么看啊，直接输入<code>date</code>，<code>shell</code>就会帮我解析这个单词，然后去调用在文件系统中的<code>/bin/date</code>这一个二进制程序，执行这个程序，然后返回当前的时间。</p>
+<p>然后我们灵光一现，那是不是很多系统命令都可以用一个单词调用呢？</p>
+<p>是这样的，我举一个例子。<code>which mkdir</code>，发现也是返回我们之前用的<code>/bin/mkdir</code>。那么我们以后用mkdir的时候是不是就不用写路径了，直接写单词就OK。</p>
+<h3 id="_3">说明<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>既然不论是内建命令还是系统命令，都可以用一个单词替代，那么我们之后就不要太区分它们啦，反正都是命令，都是用一个单词告诉<code>shell</code>要调用哪个程序，本质上是一样的。</p>
+<p>注：为什么会这样呢？调用程序写完整路径可以调用，但是一个单词给<code>shell</code>、<code>shell</code>就能知道这个程序在哪里？好奇怪啊。原因我会在这节课的最后讲环境变量的时候提及。现在先认为这就是<code>shell</code>的功能好了。</p>
+<h2 id="shell">与shell当前工作目录相关<a class="headerlink" href="#shell" title="Permanent link">&para;</a></h2>
+<p>刚刚我们讲内建命令的时候还说了两个命令，<code>pwd</code>和<code>cd</code>。但是刚刚插着讲了<code>shell</code>的一些常用命令于是就跳过了。接下来我们来讲这些命令。</p>
+<p>接下来讲的命令的一些不同是命令的输入和执行或多或少会依赖<code>shell</code>的当前工作目录，与文件的路径相关。</p>
+<h3 id="pwd">pwd<a class="headerlink" href="#pwd" title="Permanent link">&para;</a></h3>
+<p>接下来开始介绍文件路径——绝对路径和相对路径</p>
+<p>我们之前所说的路径都是绝对路径，也就是从根目录开始。但其实还有相对路径。</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><span class="nb">pwd</span>
+</span></code></pre></div></td></tr></table></div>
+<p>开始介绍shell的当前工作路径</p>
+<p><code>.</code> <code>..</code> <code>...</code> <code>-</code> <code>~</code></p>
+<p>小问题：<code>~/Desktop</code>是相对路径还是绝对路径？（A：绝对路径。因为<code>~</code>和<code>/User/yangxijie</code>是等价的）</p>
+<p>（好的习惯是目录后面再加一个斜杠，而文件后面不加（我因为这个吃过亏，但还是懒得改））</p>
+<h3 id="cd">cd<a class="headerlink" href="#cd" title="Permanent link">&para;</a></h3>
+<p>跳转<code>shell</code>的当前工作目录到指定的目录</p>
+<p>这时我们就可以来验证上面学到的相对路径了</p>
+<p>不过我们先试试绝对路径。再来相对路径</p>
+<p>（查看命令前面的符号）</p>
+<p>之前的程序<code>/Users/yangxijie/Desktop/teaching_materials/say_hello</code>，直接输入<code>say_hello</code>shell会告诉你它不认识这个单词，不认识这个命令</p>
+<p>但是要调用这样的程序未免也太长了吧，我们能不能简化一些？</p>
+<p>先<code>cd</code>到<code>/Users/yangxijie/Desktop</code>这时里面会有一个可执行文件</p>
+<p>直观的想法是<code>say_hello</code></p>
+<p>但是进入目录后直接输入字符串<code>zsh</code>会把这个当作一条命令然后它发现并没有找到这个命令（当然了<code>say_hello</code>不是<code>shell</code>的内建命令环境变量里面也没有它所以当然出现下面的提示了<code>zsh: command not found: say_hello</code></p>
+<p>怎么让<code>shell</code>知道输入的<code>say_hello</code>不是命令而是我们想要执行的程序呢？我们输入<code>./say_hello</code>就好了。相当于写了一个绝对路径对吧（<code>.</code>相当于pwd带入）</p>
+<h2 id="_4">总结<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>以上我们主要学习了两种内建命令：一种与文件系统/路径无关，一种与文件系统/路径有关。但是之后我们也不会去区分这两种命令了。</p>
+<p>也就是说，之后命令就是命令，不管那是内建的还是系统的、也不管它和文件系统、路径是否沾边。</p>
+<p>之前这么讲是希望大家能有一个较为清晰的思路认识这些命令、认识<code>shell</code>解析命令与执行程序的关系。但是之后在敲命令的不用太过考虑这些东西，命令就是命令，就只是一个单词、只是一句话而已。</p>
+<h2 id="shell_1">shell常用命令<a class="headerlink" href="#shell_1" title="Permanent link">&para;</a></h2>
+<p>接下来我们还会再介绍一些shell常用的命令和操作。</p>
+<p>（参考<a href="https://eesast.github.io/training2020/linux-webserver/linux.html">2020年清华大学电子系科协暑培｜Linux</a>）</p>
+<h4 id="ls">ls<a class="headerlink" href="#ls" title="Permanent link">&para;</a></h4>
+<p>列出当前文件夹下的所有文件</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1">ls
+</span><span id="__span-4-2">ls<span class="w"> </span>-a
+</span><span id="__span-4-3">ls<span class="w"> </span>-l
+</span></code></pre></div></td></tr></table></div>
+<h4 id="cat">cat<a class="headerlink" href="#cat" title="Permanent link">&para;</a></h4>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1">cat<span class="w"> </span>hello.txt
+</span></code></pre></div></td></tr></table></div>
+<h4 id="clear">clear<a class="headerlink" href="#clear" title="Permanent link">&para;</a></h4>
+<p>清空终端中存在的已经执行过的命令</p>
+<p>（<code>history</code>仍然可以查看）</p>
+<h4 id="mkdir">mkdir<a class="headerlink" href="#mkdir" title="Permanent link">&para;</a></h4>
+<p>在当前目录下创建文件夹</p>
+<h4 id="touch">touch<a class="headerlink" href="#touch" title="Permanent link">&para;</a></h4>
+<p>在当前目录下创建文件（一般这么创建的文件是文本文件）</p>
+<h4 id="rm">rm<a class="headerlink" href="#rm" title="Permanent link">&para;</a></h4>
+<p>移除某个文件（注意不是移动到废纸篓，而是直接抹掉，就 没了）</p>
+<p>移除某个文件夹<code>rm -d testDirectory</code></p>
+<p>强制删除<code>rm -rf testDirectory</code>（使用一定慎重！！！）</p>
+<h4 id="mvcp">mv/cp<a class="headerlink" href="#mvcp" title="Permanent link">&para;</a></h4>
+<p>移动文件与复制文件</p>
+<p>移动文件到原地相当于重命名</p>
+<h4 id="open">open<a class="headerlink" href="#open" title="Permanent link">&para;</a></h4>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-6-1">open<span class="w"> </span>foo.md
+</span><span id="__span-6-2">open<span class="w"> </span>-a<span class="w"> </span>Visual<span class="se">\ </span>Studio<span class="se">\ </span>Code.app<span class="w"> </span>foo.md
+</span><span id="__span-6-3">open<span class="w"> </span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>
+</span><span id="__span-6-4">open<span class="w"> </span>.
+</span></code></pre></div></td></tr></table></div>
+<p><code>-a</code>参数制定打开的程序（需要使用程序全名）</p>
+<p><code>$(pwd)</code>表示当前目录，<code>open $(pwd)</code>表示用<code>Finder</code>打开<code>shell</code>当前的工作目录 (<code>open .</code>也可)</p>
+<p>补充：在安装好<code>VS Code</code>之后，可以在<code>~/.zshrc</code>中添加：</p>
+<div class="language-zsh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1"><span class="nb">export</span><span class="w"> </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$PATH</span><span class="s2">:/Applications/Visual Studio Code.app/Contents/Resources/app/bin&quot;</span>
+</span></code></pre></div></td></tr></table></div>
+<p>之后用在shell中敲命令<code>code &lt;folder&gt;</code>用<code>VS Code</code>打开文件夹（工作区）。</p>
+<h4 id="man">man<a class="headerlink" href="#man" title="Permanent link">&para;</a></h4>
+<p>以<code>date</code>为例</p>
+<p>（有的没有）</p>
+<p><code>--help</code>（但是有的也没有）</p>
+<h2 id="shell_2">shell常用的操作<a class="headerlink" href="#shell_2" title="Permanent link">&para;</a></h2>
+<h4 id="_5">输出流重定向<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
+<p>还记得<code>echo</code>吗？</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-8-1">touch<span class="w"> </span>my.txt
+</span><span id="__span-8-2"><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;hello world&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>my.txt
+</span><span id="__span-8-3"><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;hhhh&quot;</span><span class="w"> </span>&gt;<span class="w"> </span>my.txt
+</span><span id="__span-8-4"><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;hahahaha&quot;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>my.txt
+</span></code></pre></div></td></tr></table></div>
+<h4 id="_6">管道<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h4>
+<p><code>|</code>: 上一个命令（程序）的输出作为下一个命令的输入</p>
+<p>比如我想看看我刚刚创建了什么文件夹来着：我可以一条一条翻，但是我也可以搜索啊！</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-9-1"><span class="nb">history</span>
+</span><span id="__span-9-2"><span class="nb">history</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;mkdir&quot;</span>
+</span></code></pre></div></td></tr></table></div>
+<h4 id="c">⌃C<a class="headerlink" href="#c" title="Permanent link">&para;</a></h4>
+<h4 id="_7">空格<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h4>
+<p>举例：创建一个含有空格的文件夹，结果发现创建了两个</p>
+<p>加入<code>\</code>或<code>""</code></p>
+<h2 id="_8">终端进阶与常用的终端操作<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<p>如果大家想对终端、<code>shell</code>、命令行深入了解，可以查看下面的课程：</p>
+<p>这是对我帮助很大的一门课程</p>
+<p><a href="https://missing-semester-cn.github.io">计算机教育中缺失的一课 The Missing Semester of Your CS Education 中文版</a></p>
+<h4 id="where">where<a class="headerlink" href="#where" title="Permanent link">&para;</a></h4>
+<p><code>where</code>也是一个<code>shell</code>内建命令。<code>where</code>和<code>which</code>的功能差不多，也是告诉我们一个命令如何被<code>shell</code>解析。区别是，<code>shell</code>能够告诉我们<code>shell</code>去解析这个命令的全部可能性。</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-10-1">where<span class="w"> </span>which
+</span></code></pre></div></td></tr></table></div>
+<p>我们可以看到，其实在<code>shell</code>输入命令<code>which</code>的时候，<code>shell</code>觉得：啊，这个单词有两种方法可以被我解析：第一种是我自己带的内建程序；第二种是系统自带的程序；不过我自己用我自己自带的程序效率更快，毕竟是我自己的东西，所以就用自己的喽。其实，我感觉<code>which</code>就是<code>where</code>的第一行，对吧。</p>
+<h4 id="vim">vim极简入门（只要能写东西进去就好了）<a class="headerlink" href="#vim" title="Permanent link">&para;</a></h4>
+<p>（编辑一个文本为例）</p>
+<p>推出插入模式并保存退出：⎋ 冒号 <code>wq</code> 回车</p>
+<h4 id="d">⌃D<a class="headerlink" href="#d" title="Permanent link">&para;</a></h4>
+<p>（<code>bash</code>举例）</p>
+<h4 id="chmod">chmod<a class="headerlink" href="#chmod" title="Permanent link">&para;</a></h4>
+<p>修改文件权限。</p>
+<p>如果你希望一个文件有可执行权限：</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-11-1">chmod<span class="w"> </span>a+x<span class="w"> </span>&lt;file&gt;
+</span></code></pre></div></td></tr></table></div>
+<p>（没有深入）</p>
+<h2 id="_9">回顾<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>如果要总结这节课所学的终端、<code>shell</code>与之前课程的联系，那就是把之前很长的命令给简化了。原本调用程序的过程我都扔给<code>shell</code>去做，我敲命令告诉<code>shell</code>干什么就ok了。</p>
+<p>比如：</p>
+<h3 id="_10">简化前面的命令 之 创建文件夹<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p><code>/bin/mkdir /Users/yangxijie/Desktop/newFolder</code>这样我们可以先<code>cd</code>过去</p>
+<p>前面省略程序路径是因为<code>shell</code>知道你那个单词代表路径为<code>/bin/mkdir</code>的程序，所以我们省略交给<code>shell</code>一个单词就好。</p>
+<p>后面为什么可以省略呢？那是因为<code>shell</code>有一个叫当前工作目录的东西，因此很多绝对路径可以用相对路径来代替。我们可以先<code>cd</code>到需要建目录的地方然后敲<code>mkdir newFolder</code></p>
+<h3 id="_11">简化前面的命令 之 执行自己写的程序<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>之前说shell内建的程序和系统的大多数二进制程序都可以通过命令让<code>shell</code>帮我们执行。但是自己写的程序<code>shell</code>是<code>不认识</code>的</p>
+<p>但是你仍然可以切换到相应的目录，然后用<code>./&lt;your_execFile&gt;</code></p>
+<h2 id="_12">补充：环境变量<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
+<h3 id="_13">引言<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>我们之前采用了几种方法来简化终端敲命令的长度：</p>
+<p>最开始说的是：<code>shell</code>认识你给它的命令（单词），所以它就帮你用这个命令（单词）找到你需要执行的程序，然后执行这个程序</p>
+<p>后来还讲过一种：因为<code>shell</code>自身有一个<code>当前工作目录</code>，所以关于路径的东西都可以写相对路径。通过<code>cd</code>命令<code>cd</code>到某个目录之后，接下来需要路径的命令都可以省略掉绝对路径而使用相对路径。</p>
+<p>第二种的原理已经很清楚。但是，第一种，也就是最先说的那一种，<code>shell</code>是怎么认识我们给它的单词呢？？？</p>
+<p>接下来我们简单说一下这个事情。</p>
+<h3 id="_14">环境变量<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<p>查看环境变量</p>
+<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-12-1"><span class="nb">echo</span><span class="w"> </span><span class="nv">$PATH</span>
+</span></code></pre></div></td></tr></table></div>
+<p>其中冒号是分隔符。当你给<code>shell</code>扔了一个命令之后，<code>shell</code>先在自己的内建程序中找有没有这个单词，没找到再到环境变量去找。
+（回顾<code>where</code>）</p>
+<h3 id="_15">为什么要用环境变量呢？<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p>因为一个相同的程序，在不同的计算机上可能安装在不同的位置。</p>
+<p>比如我写了一个<code>python</code>脚本，在脚本的第一行指出了我电脑里面的<code>python</code>路径。然后你看了这个脚本，觉得挺好用的，我就复制了一份给你。结果你的电脑上<code>python</code>并没有装在那里，那不就凉了吗？你执行这个我写的脚本的时候系统就找不到<code>python</code>的解释器于是无法运行这段脚本。</p>
+<h3 id="_16">补充：添加环境变量<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<p>添加环境变量等（大家可以自己去了解一下，自己写的程序可以这么搞，但一般都不这么搞。不过你要是下个<code>python</code>解释器，这个时候你就要给<code>python</code>的解释器添加环境变量了，因为很多别的软件都会用到<code>python</code>，这些软件希望它们用一个单词<code>python</code>就能找到<code>python</code>的解释器。（在<code>macOS</code>上这件事情交给<code>brew</code>去做，不用你手动添加；但是<code>Windows</code>上可能你就要手动添加环境变量了））</p>
+<h2 id="_17">其他的工具<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
+<h3 id="shell-">shell脚本 - 组合你的命令<a class="headerlink" href="#shell-" title="Permanent link">&para;</a></h3>
+<p><code>shell</code>脚本（以我写的处理视频的脚本为例：脚本是一段代码，组合了很多命令<a href="https://github.com/Yang-Xijie/mkv2mp4_fcp">mkv2mp4_fcp</a>）</p>
+<h3 id="homebrew-macos">homebrew - macOS快速安装命令行程序<a class="headerlink" href="#homebrew-macos" title="Permanent link">&para;</a></h3>
+<p><code>homebrew</code>（在哪里下载图形化界面的程序？<code>App Store</code>。那么在哪里下载命令行程序呢？当然是…<code>Homebrew</code>。就是一个名字。我们可以通过Homebrew来安装各种命令行工具并进行使用（补充：<code>brew</code>也可以用来安装一些图形化工具）<a href="https://brew.sh">brew官网</a>）如果有机会我会出后续的教程</p>
+<h3 id="zsh">zsh配置文件<a class="headerlink" href="#zsh" title="Permanent link">&para;</a></h3>
+<p><code>~/.zshrc</code></p>
+<h3 id="-">配置终端 - 打造舒适终端<a class="headerlink" href="#-" title="Permanent link">&para;</a></h3>
+<p>终端配置(（拿我自己的电脑说一下事儿）（给出链接大家自己想配可以配置一下）如何配置很漂亮的终端）</p>
+<p><img alt="" src="../media/16023345749067/16104419908790.jpg" width="300" /></p>
+<p>可以参考：</p>
+<p><a href="https://segmentfault.com/a/1190000014992947">iTerm2 + Oh My Zsh 打造舒适终端体验</a></p>
+<p><a href="https://www.cnblogs.com/xishuai/p/mac-iterm2.html">Mac OS 终端利器 iTerm2</a></p>
+<p>如果有机会我会出后续的教程</p>
+<h3 id="_18">用户与群组<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p>用户<code>yxj</code>和<code>sudo</code> <code>root</code>（<code>whoami</code> <code>who</code>等（系统偏好设置的切换用户（不过看我视频教程的人应该都是用自己的<code>mac</code>，所以不会牵扯到这个问题。如果你是<code>Linux</code>服务器管理员，那么可能要设置多个用户了。））</p>
+<h3 id="shell_3">查看所有的shell内建命令<a class="headerlink" href="#shell_3" title="Permanent link">&para;</a></h3>
+<p><code>man builtins</code>可以查看shell的所有内建命令</p>
+<p><img alt="" src="../media/16104420934135/16104423335475.jpg" width="300" /></p>
+<p><code>man zshbuiltins</code>可以查看到zsh的所有内建命令。（也可以先<code>man zsh</code>，然后在下方找到这个<code>zshbuiltins</code>）</p>
+<h2 id="_19">结束<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h2>
+<p>大家估计听完这四节课都着急了，怎么还没见到<code>VS Code</code>的影子呢？</p>
+<p>别急，现在你已经有了足够的基础可以听懂我接下来在讲什么，那我们就开始打开<code>VS Code</code>的大门吧！！！</p>
 
 
 
@@ -9516,12 +10665,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top", "navigation.indexes", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.indexes", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="assets/javascripts/bundle.bd41221c.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.bd41221c.min.js"></script>
       
-        <script src="mkdocs/javascripts/katex.js"></script>
+        <script src="../../../mkdocs/javascripts/katex.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
       
